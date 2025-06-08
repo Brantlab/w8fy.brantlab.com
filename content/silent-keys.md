@@ -4,8 +4,6 @@ date: 2025-06-08
 draft: false
 ---
 
-# Silent Keys (QRT)
-
 This page is dedicated to the memory of club members and friends who have gone QRT – whose keys are now silent. We honor their contributions to the Van Wert Amateur Radio Club and the amateur radio community.
 
 > **"Silent Key"** is a time-honored term used to refer to a deceased amateur radio operator. It reflects the Morse code heritage of our hobby, where the "key" refers to the telegraph key used for sending CW (Morse code).
