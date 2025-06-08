@@ -463,4 +463,4 @@ unsafe = true
 
 [services]
   [services.disqus]
-    shortname = "devcows"
+    shortname = "devcows" 
