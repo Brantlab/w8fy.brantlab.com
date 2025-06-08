@@ -283,13 +283,13 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
-#    icon = "far fa-file-alt"
-    icon = "far fa-bell"
-    title = "Do you want to be alerted for weather in the county?"
-    subtitle = "Sign up for alerts today powered by nixle"
-    link_url = "http://local.nixle.com/signup/widget/i/2140"
-    link_text = "Click here to sign up"
+    enable = true 
+    icon = "fas fa-signal"
+    title = "Interested in Ham Radio?"
+    subtitle = "Join the Van Wert Amateur Radio Club and connect with local operators, events, and emergency communication efforts."
+    link_url = "/app/"
+    link_text = "Click here to apply for membership"
+
 
 [params.clients]
     enable = true
