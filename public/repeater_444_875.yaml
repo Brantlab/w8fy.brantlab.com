@@ -1,0 +1,7 @@
+frequency: "444.875 MHz"
+offset: "+5.000 MHz"
+tone: "118.8 Hz"
+mode: "FM"
+usage: "UHF repeater, backup and auxiliary"
+weekly_net: false
+skywarn: false

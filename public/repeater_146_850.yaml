@@ -1,0 +1,7 @@
+frequency: "146.850 MHz"
+offset: "-0.600 MHz"
+tone: "203.5 Hz"
+mode: "FM"
+usage: "Primary club repeater (W8FY), Talk-In for events"
+weekly_net: true
+skywarn: true

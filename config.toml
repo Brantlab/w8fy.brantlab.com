@@ -19,222 +19,69 @@ paginate = 10
 pluralizelisttitles = false
 
 [menu]
-
-
 # Main menu
 [[menu.main]]
     name       = "Home"
-    identifier = "menu.home"
+    identifier = "menu"
     url        = "/"
     weight     = 1
 
-#[[menu.main]]
-#    name       = "Option 1: Default Page"
-#    url        = "/"
-#    weight     = 1
-#    parent     = "menu.home"
-#
-#[[menu.main]]
-#    name       = "Option 2: Application"
-#    url        = "/"
-#    weight     = 2
-#    parent     = "menu.home"
-#
-#[[menu.main]]
-#    name       = "Option 3: Startup"
-#    url        = "/"
-#    weight     = 3
-#    parent     = "menu.home"
-#
-#[[menu.main]]
-#    name       = "Option 4: Agency"
-#    url        = "/"
-#    weight     = 4
-#    parent     = "menu.home"
-#
-#[[menu.main]]
-#    name       = "Option 5: Portfolio"
-#    url        = "/"
-#    weight     = 5
-#    parent     = "menu.home"
-#
 [[menu.main]]
     name       = "Links"
-    identifier = "menu.weather"
+    identifier = "menu.links"
 #    url        = "/img/weather.png"
     weight     = 2
-#
-#[[menu.main]]
-#    name       = "Weather Stations"
-#    identifier = "section.WeatherStations"
-#    url        = ""
-#    weight     = 3
-#    parent     = "menu.weather"
-#    post       = 3
-#
-#[[menu.main]]
-#    name       = "Weather info"
-#    identifier = "section.Weatheinfo"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.weather"
-#    post       = 2
-#
-#[[menu.main]]
-#    name       = "National Weather Service"
-#    identifier = "section.NWS"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.weather"
-#    post       = 1
-#
-#[[menu.main]]
-#    name       = "Van Wert Local Weather"
-#    url        = "https://forecast.weather.gov/MapClick.php?lon=-84.57003&lat=40.87083"
-#    weight     = 1
-#    parent     = "section.NWS"
-#
-#[[menu.main]]
-#    name       = "Van Wert Local Radar"
-#    url        = "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTg0LjU5NSw0MC44NV0sImxvY2F0aW9uIjpbLTg0LjU4Niw0MC44NTVdLCJ6b29tIjoxMX0sImFuaW1hdGluZyI6ZmFsc2UsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwicmZjIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6ZmFsc2UsIm9wYWNpdHkiOnsiYWxlcnRzIjowLjgsImxvY2FsIjowLjYsImxvY2FsU3RhdGlvbnMiOjAuOCwibmF0aW9uYWwiOjAuNn19#/"
-#    weight     = 2
-#    parent     = "section.NWS"
-#
-#[[menu.main]]
-#    name       = "Local watches and warnings"
-#    url        = "https://alerts.weather.gov/cap/wwaatmget.php?x=OHC161&y=1"
-#    weight     = 3
-#    parent     = "section.NWS"
-#
-#[[menu.main]]
-#    name       = "Climate Prediction Center"
-#    url        = "https://www.cpc.ncep.noaa.gov/"
-#    weight     = 4
-#    parent     = "section.NWS"
-#
-#[[menu.main]]
-#    name       = "Storm Prediction Center"
-#    url        = "https://www.spc.noaa.gov/"
-#    weight     = 5
-#    parent     = "section.NWS"
-#
-#[[menu.main]]
-#    name       = "Tornado Maps"
-#    url        = "https://www.weather.gov/iwx/climatology_tornado"
-#    weight     = 5
-#    parent     = "section.NWS"
-#
-#
-#[[menu.main]]
-#    name       = "Van Wert EMA"
-#    url        = "http://www.findu.com/cgi-bin/panel.cgi?call=W8FY-1&units=english&xsize=600"
-#    weight     = 1
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Van Wert EMA AWS"
-#    url        = "http://owc.enterprise.earthnetworks.com/OnlineWeatherCenter.aspx?aid=2792"
-#    weight     = 2
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Convoy"
-#    url        = "https://villageofconvoy.com"
-#    weight     = 3
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Delphos"
-#    url        = ""
-#    weight     = 4
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Elgin"
-#    url        = ""
-#    weight     = 5
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Hoaglin Township"
-#    url        = ""
-#    weight     = 6
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Middlepoint"
-#    url        = ""
-#    weight     = 7
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Ohio City"
-#    url        = ""
-#    weight     = 8
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Scott"
-#    url        = ""
-#    weight     = 9
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Willshire"
-#    url        = ""
-#    weight     = 10
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "Wren"
-#    url        = ""
-#    weight     = 11
-#    parent     = "section.WeatherStations"
-#
-#[[menu.main]]
-#    name       = "General Info"
-#    url        = "/weather/"
-#    weight     = 1
-#    parent     = "section.Weatheinfo"
-#
-#[[menu.main]]
-#    name       = "All Stations"
-#    url        = "/weather-stations/"
-#    weight     = 3
-#    parent     = "section.Weatheinfo"
-#
-#[[menu.main]]
-#    name       = "All Stations 4K Display"
-#    url        = "/weather-stations-display/"
-#    weight     = 4
-#    parent     = "section.Weatheinfo"
-#
-#[[menu.main]]
-#    name       = "All Stations Davis Display"
-#    url        = "/weather-stations-display-davis/"
-#    weight     = 4
-#    parent     = "section.Weatheinfo"
-#
-#[[menu.main]]
-#    name       = "Personal Display"
-#    url        = "/weather-stations-display-2/"
-#    weight     = 4
-#    parent     = "section.Weatheinfo"
-#
-#
-#[[menu.main]]
-#    name       = "Weather Plan"
-#    url        = "/doc/2014weatherplan.pdf"
-#    weight     = 2
-#    parent     = "section.Weatheinfo"
-#
-#[[menu.main]]
-#    name       = "Weather Plan"
-#    url        = "/doc/2014weatherplan.pdf"
-#    weight     = 2
-#    parent     = "section.Weatheinfo"
-#
-#
+
+[[menu.main]]
+   name       = "Memberships"
+   identifier = "section.memberships"
+   weight     = 1
+   parent     = "menu.links"
+   post       = 1
+
+[[menu.main]]
+   name       = "Join ARRL"
+   url        = "https://www.arrl.org/membership"
+   weight     = 2
+   parent     = "section.memberships"
+
+[[menu.main]]
+   name       = "Join Echolink"
+   url        = "https://www.echolink.org/validation/"
+   weight     = 3
+   parent     = "section.memberships"
+
+[[menu.main]]
+    name       = "Join VWARC Club"
+#    identifier = "menu.club"
+    url        = "/app"
+    weight     = 1
+    parent     = "section.memberships"
+
+[[menu.main]]
+    name       = "RF information"
+    identifier = "section.RF"
+    url        = ""
+    weight     = 2
+    parent     = "menu.links"
+    post       = 2
+
+[[menu.main]]
+    name       = "146.850 (EchoLink)"
+#    identifier = "menu.club"
+    url        = "/repeater-146-850/"
+    weight     = 1
+    parent     = "section.RF"
+
+[[menu.main]]
+    name       = "444.875"
+#    identifier = "menu.club"
+    url        = "/repeater-444-875/"
+    weight     = 2
+    parent     = "section.RF"
+
+
+
 #[[menu.main]]
 #    name       = "Links"
 ##    identifier = "menu.portfolio"
@@ -245,13 +92,21 @@ pluralizelisttitles = false
     name       = "Silent Keys"
     identifier = "menu.home"
     url        = "/silent-keys/"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Schedule Exam"
+    identifier = "menu.exam"
+    url        = "/license-exam/"
+    weight     = 4
+
+[[menu.main]]
+    name       = "Hamfest!"
+    identifier = "menu.exam"
+    url        = "/hamfest/"
     weight     = 5
+
 #
-#[[menu.main]]
-#    name       = "About"
-#    identifier = "menu.about"
-#    url        = "/about/"
-#    weight     = 6
 #
 #[[menu.main]]
 #    identifier = "contact"
@@ -274,11 +129,11 @@ pluralizelisttitles = false
 ##    url = "https://github.com/devcows/hugo-universal-theme"
 ##    pre = "<i class='fab fa-2x fa-github'></i>"
 #
-#[[menu.topbar]]
-#    weight = 3
-#    name = "Facebook"
-#    url = "http://facebook.com"
-#    pre = "<i class='fab fa-2x fa-facebook'></i>"
+[[menu.topbar]]
+    weight = 4
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 #
 ##[[menu.topbar]]
 ##    weight = 4
@@ -286,11 +141,11 @@ pluralizelisttitles = false
 ##    url = "http://twitter.com"
 ##    pre = "<i class='fab fa-2x fa-twitter'></i>"
 #
-#[[menu.topbar]]
-#    weight = 5
-#    name = "Email"
-#    url = "mailto:emamccoy@vanwertema.com"
-#    pre = "<i class='fas fa-2x fa-envelope'></i>"
+[[menu.topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:info@w8fy.org"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
 #
 [params]
     viewMorePostLink = "/blog/"
@@ -377,8 +232,8 @@ pluralizelisttitles = false
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
-    text = """<p class="hidden-sm hidden-xs">Organized 1952, Constitution adopted 1954, ARRL affiliation 1954, Incorporated as a non-profit corporation 1963</p>"""
+    enable = true
+    text = """<p></p>"""
       
       #<p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       #<a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
