@@ -38,14 +38,17 @@
   color: #333;
 }
 
-.navbar-brand img {
-  max-width: 100%;
-  height: auto;
-}
-
 @media (max-width: 768px) {
+  .navbar-header,
+  .navbar-brand {
+    height: 60px; /* or whatever height fits your design */
+    display: flex;
+    align-items: center;
+  }
+
   .navbar-brand img {
-    width: 100%;
-    max-width: 200px; /* Optional: cap the size */
+    height: 100%;
+    width: auto;
+    max-width: 100%;
   }
 }
