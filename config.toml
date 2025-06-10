@@ -214,8 +214,8 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "VWARC"
 
-    logo = "/img/logo42x700.png"
-    logo_small = "/img/logo42x700.png"
+    logo = "/img/logobanner.png"
+    logo_small = "/img/logobanner.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Van Wert Amateur Radio Club</strong>
         <br>1220 Lincoln Highway
@@ -232,7 +232,7 @@ pluralizelisttitles = false
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p></p>"""
       
       #<p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>

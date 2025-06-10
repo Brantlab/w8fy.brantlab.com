@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gallery on W8FY VAN WERT HAM RADIO CLUB</title>
-    <link>http://localhost:1313/gallery/</link>
+    <link>http://0.0.0.0:1313/gallery/</link>
     <description>Recent content in Gallery on W8FY VAN WERT HAM RADIO CLUB</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://0.0.0.0:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hamfest 2011</title>
-      <link>http://localhost:1313/gallery/hamfest2011/</link>
+      <link>http://0.0.0.0:1313/gallery/hamfest2011/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/hamfest2011/</guid>
+      <guid>http://0.0.0.0:1313/gallery/hamfest2011/</guid>
       <description> IMG_0435.JPG IMG_0436.JPG IMG_0437.JPG IMG_0438.JPG IMG_0439.JPG IMG_0440.JPG IMG_0441.JPG IMG_0442.JPG IMG_0443.JPG IMG_0444.JPG IMG_0445.JPG IMG_0446.JPG </description>
     </item>
   </channel>

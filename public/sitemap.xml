@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/repeater-146-850/</loc>
+    <loc>http://0.0.0.0:1313/repeater-146-850/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/repeater-444-875/</loc>
+    <loc>http://0.0.0.0:1313/repeater-444-875/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/license-exam/</loc>
+    <loc>http://0.0.0.0:1313/license-exam/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/silent-keys/</loc>
+    <loc>http://0.0.0.0:1313/silent-keys/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/app/</loc>
+    <loc>http://0.0.0.0:1313/app/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hamfest/</loc>
+    <loc>http://0.0.0.0:1313/hamfest/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://0.0.0.0:1313/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://0.0.0.0:1313/about/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/css-vars/</loc>
+    <loc>http://0.0.0.0:1313/posts/css-vars/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>http://0.0.0.0:1313/gallery/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/hamfest2011/</loc>
+    <loc>http://0.0.0.0:1313/gallery/hamfest2011/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello/</loc>
+    <loc>http://0.0.0.0:1313/posts/hello/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://0.0.0.0:1313/posts/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/showcase/</loc>
+    <loc>http://0.0.0.0:1313/showcase/</loc>
     <lastmod>2018-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://0.0.0.0:1313/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://0.0.0.0:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://0.0.0.0:1313/tags/</loc>
   </url>
 </urlset>
