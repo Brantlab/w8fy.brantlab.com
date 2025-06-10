@@ -65,6 +65,13 @@
       <description>What is going on? Hello. This is a first step toward color schema flexibility.&#xA;You still can use existing predefined accent colors from the list:&#xA;blue green orange pink red but if you need to pick another accent colors you can do it with the help of native CSS Variables.&#xA;Just create, if you haven&amp;rsquo;t any yet, static/style.css&#xA;and redefine two CSS variables, like this&#xA;:root { --accent: blue; --accent-contrast-color: yellow; } Any other CSS Variable I should know?</description>
     </item>
     <item>
+      <title>Hamfest 2011</title>
+      <link>http://localhost:1313/gallery/hamfest2011/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/hamfest2011/</guid>
+      <description> IMG_0435.JPG IMG_0436.JPG IMG_0437.JPG IMG_0438.JPG IMG_0439.JPG IMG_0440.JPG IMG_0441.JPG IMG_0442.JPG IMG_0443.JPG IMG_0444.JPG IMG_0445.JPG IMG_0446.JPG </description>
+    </item>
+    <item>
       <title>Hello Friend, re-Terminal is back!</title>
       <link>http://localhost:1313/posts/hello/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>

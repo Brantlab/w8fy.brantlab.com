@@ -1,0 +1,18 @@
+{{ $dir := .Get "gallery_dir" }}
+<ul class="image-gallery-grid">
+  {{ range (readDir (print "static" $dir)) }}
+    {{- $imagepath := printf "%s/%s" $dir .Name -}}
+    {{- with resources.Get $imagepath }}
+      {{- $image := . -}}
+      {{- $filename := path.Base .Name -}}
+      {{- $imagetitle := replace $filename (printf ".%s" (path.Ext $filename)) "" -}}
+
+      <li class="gallery-item">
+        <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" class="lightbox-image">
+          <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}">
+        </a>
+        <div class="image-title">{{ $imagetitle }}</div>
+      </li>
+    {{- end }}
+  {{ end }}
+</ul>
