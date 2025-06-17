@@ -28,16 +28,19 @@ After filling out the form, you can return it by email or bring it to a club mee
 
 ## 🏢 Mail To:
 
-Van Wert Amateur Radio Club  
-c/o David Freels  
-1020 Kear Road  
-Van Wert, OH 45891
+Van Wert Amateur Radio Club, Inc.
+P.O. Box 602
+Van Wert, Ohio 45891-0602
 
 ---
 
 ## 📧 Questions?
 
 Email us at [ka8zge@w8fy.org](mailto:ka8zge@w8fy.org)
+
+---
+
+NOTE:  Being a licensed amateur radio operator is not a prerequisite for membership.
 
 ---
 

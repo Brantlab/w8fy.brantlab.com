@@ -30,7 +30,7 @@ pluralizelisttitles = false
     name       = "Links"
     identifier = "menu.links"
 #    url        = "/img/weather.png"
-    weight     = 2
+    weight     = 5
 
 [[menu.main]]
    name       = "Memberships"
@@ -80,7 +80,33 @@ pluralizelisttitles = false
     weight     = 2
     parent     = "section.RF"
 
+[[menu.main]]
+   name       = "Events"
+   identifier = "section.Events"
+   weight     = 3
+   parent     = "menu.links"
+   post       = 1
 
+[[menu.main]]
+    name       = "Hamfest 2025"
+#    identifier = "menu.club"
+    url        = "/hamfest/"
+    weight     = 1
+    parent     = "section.Events"
+
+[[menu.main]]
+    name       = "Summer Field Day 2025"
+#    identifier = "menu.club"
+    url        = "/sfieldday25/"
+    weight     = 2
+    parent     = "section.Events"
+
+[[menu.main]]
+    name       = "Winter Field Day 2026"
+#    identifier = "menu.club"
+    url        = "/wfieldday26/"
+    weight     = 2
+    parent     = "section.Events"
 
 #[[menu.main]]
 #    name       = "Links"
@@ -92,19 +118,19 @@ pluralizelisttitles = false
     name       = "Silent Keys"
     identifier = "menu.home"
     url        = "/silent-keys/"
-    weight     = 3
+    weight     = 2
 
 [[menu.main]]
     name       = "Schedule Exam"
     identifier = "menu.exam"
     url        = "/license-exam/"
-    weight     = 4
+    weight     = 3
 
 [[menu.main]]
     name       = "Hamfest!"
-    identifier = "menu.exam"
+    identifier = "menu.home1"
     url        = "/hamfest/"
-    weight     = 5
+    weight     = 4
 
 #
 #
@@ -132,7 +158,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 4
     name = "Facebook"
-    url = "http://facebook.com"
+    url = "http://facebook.com/w8fy.org"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 #
 ##[[menu.topbar]]
@@ -232,8 +258,8 @@ pluralizelisttitles = false
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
-    text = """<p></p>"""
+    enable = true
+    text = """<p> Mind the mess! Under development.</p>"""
       
       #<p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       #<a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
