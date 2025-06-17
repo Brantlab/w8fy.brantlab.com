@@ -14,7 +14,7 @@ We welcome all licensed amateur radio operators, those interested in becoming li
 
 ## 📄 Download the Application
 
-[Click here to download the PDF](https://www.w8fy.org/forms/vwarc_membership_app.pdf)
+[Click here to download the PDF](https://www.w8fy.org/docs/app.pdf)
 
 After filling out the form, you can return it by email or bring it to a club meeting.
 
