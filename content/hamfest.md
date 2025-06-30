@@ -9,16 +9,22 @@ The Van Wert Amateur Radio Club hosts an annual **Hamfest** for amateur radio op
 
 ## 📅 Date & Time
 
-**Saturday, July 20, 2024**  
+**Saturday, July 20th, 2025**  
 Doors open at **8:00 AM**
 
 ---
 
 ## 📍 Location
 
-**Van Wert County Fairgrounds – Jr. Fair Building**  
+**Van Wert County Fairgrounds – Administration building Annex**  
 1055 S. Washington Street  
 Van Wert, OH 45891
+
+---
+
+## 🚐 Camping available
+Camping is available at the fairgrounds for: **$35.00** <br>
+Camping fee is required by the fair board. 
 
 ---
 
@@ -54,8 +60,7 @@ Use this repeater to get directions, ask questions, or chat with attendees on yo
 ---
 
 ## 🍳 Food & Refreshments
-
-Breakfast and lunch available on-site, served by the Van Wert County CERT team.
+W8FY will have water, soda, donuts, and fruit available with donation. 
 
 ---
 

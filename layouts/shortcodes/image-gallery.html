@@ -1,20 +1,21 @@
 {{ $dir := .Get "gallery_dir" }}
+
 <br>
 <ul class="image-gallery-grid">
   {{ range (readDir (print "static" $dir)) }}
-    {{- $imagepath := printf "%s/%s" $dir .Name -}}
-    {{- with resources.Get $imagepath }}
-      {{- $image := . -}}
+    {{- $ext := lower (path.Ext .Name) -}}
+    {{- if in (slice ".jpg" ".jpeg" ".png" ".gif" ".tiff" ".bmp") $ext -}}
+      {{- $imagepath := printf "%s/%s" $dir .Name -}}
       {{- $filename := path.Base .Name -}}
-      {{- $imagetitle := replace $filename (printf ".%s" (path.Ext $filename)) "" -}}
+      {{- $imagetitle := replace $filename (printf ".%s" (path.Ext $filename)) "" | humanize -}}
 
       <li class="gallery-item">
-        <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" class="lightbox-image">
-          <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}">
+        <a href="{{ $imagepath | relURL }}" class="lightbox-image">
+          <img src="{{ $imagepath | relURL }}" alt="{{ $imagetitle }}">
         </a>
         <div class="image-title">{{ $imagetitle }}</div>
       </li>
-    {{- end }}
+    {{- end -}}
   {{ end }}
 </ul>
 <br><br><br>

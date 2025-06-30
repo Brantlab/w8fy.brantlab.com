@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011 on W8FY VAN WERT HAM RADIO CLUB</title>
+    <link>http://localhost:1313/tags/2011/</link>
+    <description>Recent content in 2011 on W8FY VAN WERT HAM RADIO CLUB</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/2011/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2011 - HAMfest</title>
+      <link>http://localhost:1313/gallerys/2011-hamfest/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallerys/2011-hamfest/</guid>
+      <description> Img 0435. jpg Img 0436. jpg Img 0437. jpg Img 0438. jpg Img 0439. jpg Img 0440. jpg Img 0441. jpg Img 0442. jpg Img 0443. jpg Img 0444. jpg Img 0445. jpg Img 0446. jpg </description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
-baseurl = "https://w8fy.brantlab.xyz/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://w8fy.org/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "W8FY VAN WERT HAM RADIO CLUB"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -127,9 +127,9 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
-    name       = "Hamfest!"
+    name       = "Gallerys"
     identifier = "menu.home1"
-    url        = "/hamfest/"
+    url        = "/gallerys/"
     weight     = 4
 
 #
@@ -149,26 +149,27 @@ pluralizelisttitles = false
 #    url = "tel:+14192381300"
 #    pre = "<i class='fas fa-2x fa-phone'></i>"
 #
-##[[menu.topbar]]
-##    weight = 2
-##    name = "GitHub"
-##    url = "https://github.com/devcows/hugo-universal-theme"
-##    pre = "<i class='fab fa-2x fa-github'></i>"
-#
 [[menu.topbar]]
     weight = 4
+    name = "GitHub"
+    url = "https://github.com/W8FY"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+#
+[[menu.topbar]]
+    weight = 3
     name = "Facebook"
     url = "http://facebook.com/w8fy.org"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 #
-##[[menu.topbar]]
-##    weight = 4
-##    name = "Twitter"
-##    url = "http://twitter.com"
-##    pre = "<i class='fab fa-2x fa-twitter'></i>"
+#[[menu.topbar]]
+#    weight = 2
+#    name = "Discord"
+#    url = "https://discord.gg/4ajEXdWPzC"
+#    pre = "<i class='fab fa-2x fa-discord'></i>"
+
 #
 [[menu.topbar]]
-    weight = 5
+    weight = 1
     name = "Email"
     url = "mailto:info@w8fy.org"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
@@ -177,7 +178,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "BrantLab"
     defaultKeywords = ["HAM Radio", "Van Wert", "VWARC", "Radio", "Amateur Radio", "W8FY", "Van Wert Amateur Radio Club", "Field Day", "Emergency Communications", "Skywarn", "ARES", "Ohio HAM Radio", "FCC License", "Ham Radio Events", "Repeater System", "POTA", "OTA Activations", "Radio Club", "Public Service Radio", "Hamfest", "2 Meter Net"]
-    mainSections = ["blog"]
+    mainSections = ["gallerys"]
     defaultDescription = "Coordinating agency for emergencies in Van Wert County Ohio"
 
     # Social media
@@ -270,7 +271,7 @@ pluralizelisttitles = false
 [params.widgets]
     categories = true
     tags = true
-    search = true
+    search = false
 
 [params.carouselCustomers]
     items = 6
@@ -342,6 +343,6 @@ pluralizelisttitles = false
 [markup.goldmark.renderer]
 unsafe = true
 
-[services]
-  [services.disqus]
-    shortname = "devcows" 
+#[services]
+#  [services.disqus]
+#    shortname = "devcows" 

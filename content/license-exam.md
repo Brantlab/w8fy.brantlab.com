@@ -30,6 +30,8 @@ Please bring the following with you to the exam session:
 
 > As of 2022, **all applicants must have an FRN** prior to testing. Social Security Numbers are no longer accepted at exam sessions.
 
+> The FCC now collects $35 for new amateur radio licenses. The fee was mandated by Congress and went into effect April 19, 2022. After you pass your first exam, the Volunteer Examiner Coordinator will submit your information to the FCC for processing. Once the FCC processes your application, you will receive a bill via email to pay the $35 online. The $35 must be paid within 10 days or your application will be dismissed, so be sure to check your spam folder, too! 
+
 ---
 
 ## 💡 Study Resources
