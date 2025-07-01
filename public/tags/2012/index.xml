@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012 on W8FY VAN WERT HAM RADIO CLUB</title>
-    <link>http://localhost:1313/tags/2012/</link>
+    <link>https://w8fy.org/tags/2012/</link>
     <description>Recent content in 2012 on W8FY VAN WERT HAM RADIO CLUB</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/2012/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://w8fy.org/tags/2012/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2012 - Christmas party</title>
-      <link>http://localhost:1313/gallerys/2012-chirsmas/</link>
+      <link>https://w8fy.org/galleries/2012-chirsmas/</link>
       <pubDate>Sun, 16 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallerys/2012-chirsmas/</guid>
+      <guid>https://w8fy.org/galleries/2012-chirsmas/</guid>
       <description> Door prize drawing 1. jpg Door prize drawing 2. jpg Door prize drawing 3. jpg Door prize drawing. jpg Eatin time 2. jpg Headed to the food. jpg Jack leading the services. jpg Relaxing 1. jpg Relaxing. jpg Setup.jpg Social time 2. jpg Social time 3. jpg Social time 4. jpg Social time 5. jpg Social time. jpg The start of the party. jpg </description>
     </item>
     <item>
       <title>2012 - Jacks Fall Party</title>
-      <link>http://localhost:1313/gallerys/2012-jacks-fall-party/</link>
+      <link>https://w8fy.org/galleries/2012-jacks-fall-party/</link>
       <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallerys/2012-jacks-fall-party/</guid>
+      <guid>https://w8fy.org/galleries/2012-jacks-fall-party/</guid>
       <description> 20120915 200526.jpg 20120915 200535.jpg 20120915 200601.jpg 20120915 200654.jpg 20120915 200951.jpg 20120915 201011.jpg 20120915 201211.jpg 20120915 204251.jpg </description>
     </item>
   </channel>

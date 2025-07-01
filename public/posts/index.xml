@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on W8FY VAN WERT HAM RADIO CLUB</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://w8fy.org/posts/</link>
     <description>Recent content in Posts on W8FY VAN WERT HAM RADIO CLUB</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://w8fy.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS Variables update</title>
-      <link>http://localhost:1313/posts/css-vars/</link>
+      <link>https://w8fy.org/posts/css-vars/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/css-vars/</guid>
+      <guid>https://w8fy.org/posts/css-vars/</guid>
       <description>What is going on? Hello. This is a first step toward color schema flexibility.&#xA;You still can use existing predefined accent colors from the list:&#xA;blue green orange pink red but if you need to pick another accent colors you can do it with the help of native CSS Variables.&#xA;Just create, if you haven&amp;rsquo;t any yet, static/style.css&#xA;and redefine two CSS variables, like this&#xA;:root { --accent: blue; --accent-contrast-color: yellow; } Any other CSS Variable I should know?</description>
     </item>
     <item>
       <title>Hello Friend, re-Terminal is back!</title>
-      <link>http://localhost:1313/posts/hello/</link>
+      <link>https://w8fy.org/posts/hello/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
+      <guid>https://w8fy.org/posts/hello/</guid>
       <description>Hello in a new age You can call me Mirus and I forked the original Terminal theme for Hugo, because Radek, the original creator of the theme stop the maintenance and archived the repo.&#xA;So I already pushed a few improvements that I did for my humble blog and I&amp;rsquo;m going to add some more features in the future, also any contribution is welcome&#xA;Below you can read the original about from Radek</description>
     </item>
   </channel>

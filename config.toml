@@ -127,10 +127,61 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
-    name       = "Gallerys"
+    name       = "Galleries"
     identifier = "menu.home1"
-    url        = "/gallerys/"
+    url        = "/galleries/"
     weight     = 4
+
+[[menu.main]]
+   name       = "Club Information"
+   identifier = "section.club"
+   weight     = 4
+   parent     = "menu.links"
+   post       = 2
+
+[[menu.main]]
+    name       = "Committees"
+#    identifier = "menu.club"
+    url        = "/committees/"
+    weight     = 1
+    parent     = "section.club"
+
+[[menu.main]]
+    name       = "Meeting Information"
+#    identifier = "menu.club"
+    url        = "/meeting-info/"
+    weight     = 2
+    parent     = "section.club"
+
+[[menu.main]]
+    name       = "Meeting Minutes"
+#    identifier = "menu.club"
+    url        = "/meetings/"
+    weight     = 3
+    parent     = "section.club"
+
+[[menu.main]]
+   name       = "County Information"
+   identifier = "section.county"
+   weight     = 1
+   parent     = "menu.links"
+   post       = 3
+
+[[menu.main]]
+    name       = "Van Wert County HAMs"
+#    identifier = "menu.club"
+    url        = "/hamlist/vanwert-hams"
+    weight     = 2
+    parent     = "section.county"
+
+[[menu.main]]
+    name       = "Van Wert County EMA"
+#    identifier = "menu.club"
+    url        = "https://www.vanwertcountyohio.gov/government/ema_office/index.php"
+    weight     = 1
+    parent     = "section.county"
+
+
 
 #
 #
@@ -178,7 +229,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "BrantLab"
     defaultKeywords = ["HAM Radio", "Van Wert", "VWARC", "Radio", "Amateur Radio", "W8FY", "Van Wert Amateur Radio Club", "Field Day", "Emergency Communications", "Skywarn", "ARES", "Ohio HAM Radio", "FCC License", "Ham Radio Events", "Repeater System", "POTA", "OTA Activations", "Radio Club", "Public Service Radio", "Hamfest", "2 Meter Net"]
-    mainSections = ["gallerys"]
+    mainSections = ["galleries"]
     defaultDescription = "Coordinating agency for emergencies in Van Wert County Ohio"
 
     # Social media
