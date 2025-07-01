@@ -9,7 +9,7 @@ The Van Wert Amateur Radio Club hosts an annual **Hamfest** for amateur radio op
 
 ## 📅 Date & Time
 
-**Saturday, July 20th, 2025**  
+**Sunday, July 20th, 2025**  
 Doors open at **8:00 AM**
 
 ---
